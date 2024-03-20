@@ -1,9 +1,16 @@
-export const CardData = [
+interface Card {
+    id: number;
+    imgSrc: string;
+    header: string;
+    description: string;
+}
+
+export const CardData:Card[] = [
     {
         id:1,
-        imgSrc:'/assets/fees.png',
-        header: 'Fees mechanism',
-        description:'70% of fees, collected from RockBOT, are automatically spent to buyback $ROCK, and burn it later.'
+        imgSrc:'/assets/UIlogo.png',
+        header: 'User Interface',
+        description:'Interface, made with Telegram Web Apps API, combined with clasic Telegram bot interactions, provides you the best user experience ever existed.'
     },
     {
         id:2,
@@ -16,5 +23,11 @@ export const CardData = [
         imgSrc:'/assets/referrals.png',
         header: 'Referral system',
         description:'Invite people to RockBOT and get paid! As soon as you start using the bot, a referral link will be automatically created for you, which you can share with friends and earn 30% of their fees!'
+    },
+    {
+        id:4,
+        imgSrc:'/assets/fees.png',
+        header: 'Fees mechanism',
+        description:'70% of fees, collected from RockBOT, are automatically spent to buyback $ROCK, and burn it later.'
     }
 ]
