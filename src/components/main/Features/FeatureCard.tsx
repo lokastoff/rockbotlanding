@@ -1,5 +1,4 @@
 interface CardProps {
-    id:number,
     imgSrc: string,
     header: string,
     description :string   
