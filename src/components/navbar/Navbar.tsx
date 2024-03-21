@@ -34,7 +34,7 @@ export const Navbar:React.FC = () => {
                         <motion.div variants={socialAndButtonVariants} initial="hidden" animate="visible">
                             <SocialNav/>
                         </motion.div>
-                        <motion.div variants={socialAndButtonVariants} initial="hidden" animate="visible" whileHover={{ scale: 1.1 }}>
+                        <motion.div variants={socialAndButtonVariants} initial="hidden" animate="visible" whileHover={{ scale: 1.1 }} className=" max-sm:hidden">
                             <TryBotButton/>
                         </motion.div>
                         <motion.div className="menuButton sm:hidden m-[16px] p-[16px] w-[60px] h-[60px] flex items-center justify-center" variants={menuButtonVariants} initial="hidden" animate="visible" whileTap={{scale: 1.1}}>
