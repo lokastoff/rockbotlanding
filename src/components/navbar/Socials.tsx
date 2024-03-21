@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 export const SocialNav:React.FC = () => {
     return (
-        <div className="socialWrapper grid grid-cols-3 grid-rows-1 gap-[16px] mx-[20px] max-sm:hidden">
+        <div className="socialWrapper grid grid-cols-3 grid-rows-1 gap-[16px] mx-[20px]">
             <motion.a href="https://usdrock.gitbook.io/rockbot-documentation" className="p-[4px]" target="_blank" whileHover={{ scale: 1.1 }}>
                 <img src="/assets/Gitbook.svg" alt="gitbook" className="w-[20px]"/>
             </motion.a>
